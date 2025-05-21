@@ -1,1 +1,40 @@
+body{
+    background-color: rgb(138, 137, 136);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
 
+    display: grid; 
+    text-align: center;
+    background-color: #e0e5e0;
+    box-shadow: 10px,10px,20px gainsboro inset -10px,10px,20px #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 500px;
+   padding: 20px;
+
+}
+.but{
+    
+    background-color: aquamarine;
+    border: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 70px;
+    justify-content: flex-start;
+
+} 
+.btn1{
+    display: flex;
+    gap: 60px;
+    
+}
+input{
+    border-radius: 10px;
+}
